@@ -789,6 +789,13 @@
         cursor: pointer;
         border: none;
       }
+      video {
+        width:600px;          /* must be equal for perfect circle */
+        height: 650px;
+        border-radius: 50%;    /* makes it circular */
+        object-fit: cover;     /* prevents stretching */
+        border: 5px solid #fff; /* optional border */
+      }
     </style>
     <link
       rel="stylesheet"
